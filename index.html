@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <span id="icon"><i class="fa-solid fa-bars"></i></span>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header">
+                <h1>Hi! I'm Abhishek</h1>
+                <p>A CSE Student From NITK</p>
+                <br>
+                <p><span>👋🏻</span></p>
+                <p>Welcome To My Portfolio Webpage!</p>
+                <p>Visit Every Section Of My Page And Know About Me</p>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+           <div class="row">
+                <div class="about-col-1">
+                    <a href="#header" style="text-decoration: none;"><h2>About Me</h2></a>
+                    <p>Hello! I'm a focused student studying Computer Science And Engineering in NITK. Proficient in coding, my academic journey includes notable achievements in projects. Engaged in volunteer work as a Rotoract Club Member, I bring a well-rounded perspective to my studies. Passionate about Web Development, I'm excited to engage in development.</p>
+                    <div class="extra">
+                        <div id="edu">
+                            <h4>Education</h4>
+                            <ul id="colleges">
+                                <li>PUC : Sri Chaitanya Junior College, Vishakapatnam, AP</li>
+                                <li>B-Tech : Natoinal Institute of Technology, Surathkal, Karnataka</li>
+                            </ul>
+                        </div>
+                        <div id="exp">
+                            <h4>Experience</h4>
+                            <p>As a dedicated Computer Science and Engineering (CSE) student, my portfolio encapsulates a dynamic skill set and a passion for innovative solutions. Proficient in languages such as Python and C++, I've demonstrated my prowess in diverse projects spanning web development.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <img src="Profile.jpg" alt="Profile">
+                </div>
+           </div>
+        </div>
+    </div>
+    <div id="projects">
+        <div class="container">
+            <a href="#header" style="text-decoration: none;"><h2>Projects</h2></a>
+            <ul class="work">
+                <li class="animate">
+                    <div id="smart">
+                        <h4>Smart Home Automation:</h4>
+                        <p>A comprehensive smart home automation system that uses a combination of sensors and logic gates to control access our home through remote and trigger alarms in case of unauthorized movements. A smart home automation system is an integrated network of devices and sensors within a home that communicate and interact with each other, as well as with the homeowner, to control over various devices.</p>
+                    </div>
+                </li>
+                <li class="animate">
+                    <div id="voip">
+                        <h4>Voice Over IP:</h4>
+                        <p>Voice over Internet Protocol (VoIP) is a technology that enables voice communication and multimedia sessions over the Internet. Unlike traditional telephone systems that rely on circuit-switched networks, VoIP converts voice signals into digital data packets, which are transmitted over the Internet or other IP-based networks. The Project is mainly focus on implementing VoIP setup in NITK.</p>
+                    </div>
+                </li>
+                <li class="animate">
+                    <div id="shopping">
+                        <h4>Shopping Website:</h4>
+                        <p>Our project involves the development of an innovative online shopping website that aims to redefine the e-commerce experience. The platform will offer users a seamless and user-friendly interface to explore an extensive range of products across various categories, including fashion, electronics, home decor, and more. The website will prioritize an intuitive navigation system, allowing users to easily browse, filter, and search for their desired items.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="skills">
+        <a href="#header" style="text-decoration: none;"><h2>Skills</h2></a>
+        <div class="container">
+            <ul class="list">
+                <li>
+                    <p><b>Languages Known:</b></p>
+                    <div>
+                        <ul>
+                            <li>C Programming</li>
+                            <li>C++</li>
+                            <li>Python</li>
+                            <li>Verilog</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <b>Web Designer - FrontEnd</b>
+                    <ul id="web">
+                        <li id="html"><img src="html5.jpg"></li>
+                        <li id="css"><img src="css.jpg"></li>
+                        <li id="js"><img src="js.jpg"></li>
+                    </ul>
+                </li>
+                <li><b>Data Communication</b></li>                  
+            </ul>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <section id="contactus">                
+                <form action="#" method="post" id="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter Name" required>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter e-mail Address" required>
+            
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Enter Message" required></textarea>
+            
+                    <button type="submit" oneclick="submitForm()">Send Message</button>
+                </form>
+                
+                <div id="feedback-message"></div>
+            </section>
+            <a href="#header" style="text-decoration: none;"><h2>Contact Me</h2></a>
+            <div class="connect">
+                <p><i class="fa-solid fa-phone"></i> +91-XXXXXXXXXX</p>
+                <p><i class="fa-solid fa-envelope"></i> abc@gmail.com</p>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+    <footer class="container">
+        <p>&copy; 2024 All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
